@@ -16,12 +16,9 @@ PRÓXIMA IMPLEMENTAÇÕES
 - Carrinho de compras
 - Controle de estoque
 
-
-
 Status do pedido
 int
  1  Pendente
  2  Pago
  3  Cancelado
  4  Entregue
-

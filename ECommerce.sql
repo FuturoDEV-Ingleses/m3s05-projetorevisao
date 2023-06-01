@@ -5,8 +5,6 @@
 /* ************************* */
 CREATE DATABASE ecommerce;
 
-
-
 /* ****************** */
 /* Criação de Tabelas */
 /* ****************** */
@@ -57,3 +55,5 @@ CREATE TABLE pedido_item (
   valor numeric(19, 2) NOT NULL,
   total_item numeric(19, 2) NOT NULL
 );
+
+ALTER TABLE pedido ALTER COLUMN data_pagamento DROP NOT NULL;
